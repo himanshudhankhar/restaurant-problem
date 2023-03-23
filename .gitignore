@@ -34,3 +34,6 @@ build/
 
 ### CSV ###
 *.csv
+
+### log ###
+*.log
