@@ -7,5 +7,5 @@ import com.example.storemonitoring.models.TimeZone;
 
 @Component
 public interface TimeZoneRepository extends CrudRepository<TimeZone, Integer>{
-    
+    TimeZone findByStoreId(String storeId);
 }
