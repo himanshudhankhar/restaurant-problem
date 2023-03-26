@@ -10,4 +10,6 @@ import com.example.storemonitoring.models.Menu;
 public interface MenuRepository extends CrudRepository<Menu, Integer> 
 {
     ArrayList<Menu> findByStoreId(String restoId);
+
+    ArrayList<Menu> findByStoreIdAndDay(String restoId, Integer day);
 }
